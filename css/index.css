@@ -52,7 +52,7 @@ section{display: inline-block;}
 .seccion1_pages-art div{width: 30vw;}
 .seccion1_pages-art img{width: 40vw;padding: .5rem; min-width: 310px; flex-wrap: wrap;}
 .hamburger{display: none;}
-.seccion2_pages{display: flex; ; justify-content: center align-items: center}
+.seccion2_pages{display: flex; ; justify-content: center; align-items: center}
 
 @media screen and (max-width: 744px) 
 {
