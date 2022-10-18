@@ -61,7 +61,7 @@ section{display: inline-block;}
         .div{flex-direction: column;}
         .seccion1_pages-art{flex-direction: column; align-items: center;}
         .seccion2_pages{flex-direction: column;}
-    
+        
 }
 [role=button] {
     cursor: pointer;
