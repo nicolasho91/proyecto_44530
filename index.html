@@ -5,73 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cultura de inocuidad</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header>
-        <nav class="navbar container">
-            <a class="navbar__link" href="../PreEntrega2+Orlando/index.html"> <img src="./img/logo.png" alt="food safety logo"></a>
+    <header class="bd-example">
+        <!-- <img src="./img/logo.png" alt="Food Safety">
+        <div class="collapse show" id="navbarToggleExternalContent" style="">
+          <div class="bg-dark p-4">
+            <span class="text-muted">
+                <ul class="menu">
+                    <li class="menu__links">
+                        <a href="./pages/vym.html">Visión y Misión</a>
+                    </li>
+                    <li class="menu__links">
+                        <a href="./pages/personas.html">Personas</a>
+                    </li>
+                    <li class="menu__links">
+                        <a href="./pages/consistencia.html">Consistencia</a>
+                    </li>
+                    <li class="menu__links">
+                        <a href="./pages/adaptabilidad.html">Adaptabilidad</a>
+                    </li>
+                    <li class="menu__links">
+                        <a href="./pages/concientizacion.html">Concientización</a>
+                    </li>
+                </ul>
+            </span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="true" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          
+        </nav> -->
+        <nav class="navbar">
+            <img src="./img/logo.png" alt="Food Safety">
+            <button class="hamburger">
+                <iconify-icon role="button" icon="entypo:menu" style="color: white;" width="8rem"; height="8rem"></iconify-icon>
+
+            </button>
             <ul class="menu">
-                <li class="li">
+                <li class="menu__links">
                     <a href="./pages/vym.html">Visión y Misión</a>
                 </li>
-                <li class="li">
+                <li class="menu__links">
                     <a href="./pages/personas.html">Personas</a>
                 </li>
-                <li class="li">
+                <li class="menu__links">
                     <a href="./pages/consistencia.html">Consistencia</a>
                 </li>
-                <li class="li">
+                <li class="menu__links">
                     <a href="./pages/adaptabilidad.html">Adaptabilidad</a>
                 </li>
-                <li class="li">
-                    <a href="./pages/concientizacion.html">concientización</a>
+                <li class="menu__links">
+                    <a href="./pages/concientizacion.html">Concientización</a>
                 </li>
             </ul>
         </nav>
     </header>
     <section id="seccion1_home">
-        <div>
-        <h1> CULTURA DE INOCUIDAD ALIMENTARIA</h1>
-        <p class="seccion1_p">El GTT de la GFSI define la cultura de inocuidad alimentaria como “valores, creencias y normas 
+        <div class="div">
+            <h1> CULTURA DE INOCUIDAD ALIMENTARIA</h1>
+            <p class="seccion1_p">El GTT de la GFSI define la cultura de inocuidad alimentaria como “valores, creencias y normas 
             compartidas que afectan la forma de pensar y el  comportamiento con relación a la inocuidad 
             alimentaria en, a través y a lo largo y a lo ancho de una organización.”</p>
         </div>
-        <img src="./img/img_sec1.png" alt="">
+        <img src="./img/img_sec1.png" class="img-fluid" alt="">
     </section>
     <section id="seccion2_home">
-        <h2>DIMENSIONES DE LA CULTURA DE INOCUIDAD ALMIMENTARIA</h2>
+        <h2 class="title2_home">DIMENSIONES DE LA CULTURA DE INOCUIDAD ALMIMENTARIA</h2>
         <article class="vym_home">
-            <div>
+            <div class="div">
                 <h3>VISION Y MISION</h3>
                 <p>Incluye la estructura, valores y proposito de la empresa.
                     Establece la direccion y expectativas a través del liderazgo y el mensaje</p>
             </div>
-            <img src="./img/img_vym.png" alt="">
+            <picture class="img">
+                <img src="./img/img_vym.png" class="img-fluid" alt="">
+            </picture>
         </article>
         <article class="conci_home">
-            <img id="conci_img_home" src="./img/img_conci.png" alt="">
-            <div>
+            <picture class="img">
+                <img id="conci_img_home" src="./img/img_conci.png" class="img-fluid" alt="">
+            </picture>
+            <div class="div">
                 <h3>CONCIENTIZACION</h3>
                 <p>La concientización hace referencia a los peligros y riesgos, poniendo en consideración la educación e información fundamental de los peligros.
                 Requiere del compromiso de cada empleado, e incluye la verificación de dicha concientización de los peligros y riesgos.</p>
             </div>
         </article>
         <article class="per_home">
-            <div>
+            <div class="per_home__text">
                 <h3>PERSONAS</h3>
                 <p>Se centra en los actores clave de la cadena, su gobernanza, comunicación, organización del aprendizaje e incentivos, recompensas y reconocimientos</p>
             </div>
-            <picture>
-                <img src="./img/img_per1.png" alt="">
-                <img src="./img/img_per2.png" alt="">
-                <img src="./img/img_per3.png" alt="">
+            <picture class="per_home__img">
+                <img src="./img/img_per1.png" class="img-fluid" alt="">
+                <img src="./img/img_per2.png" class="img-fluid" alt="">
+                <!-- <img src="./img/img_per3.png" alt=""> -->
             </picture>
         </article>
         <article class="adap_home">
-            <img id="adap_img_home" src="./img/img_adap.png" alt="">
-            <div>
+            <picture class="img">
+                <img id="adap_img_home" src="./img/img_adap.png" class="img-fluid" alt="">
+            </picture>
+            <div class="div">
                 <h3>ADAPTABILIDAD</h3>
                 <p>Representa las expectativas en inocuidad alimentaria y la situación actual.
                 Es sinónimo de agilidad.
@@ -79,11 +121,13 @@
             </div>
         </article>
         <article class="cons_home">
-            <div>
+            <div class="div">
                 <h3>CONSISTENCIA</h3>
                 <p>Consiste en la responsabilidad, la medición del desempeño y la documentación que lo respalda</p>
             </div>
-            <img src="./img/img_cons.png" alt="">
+            <picture class="img">
+                <img src="./img/img_cons.png" class="img-fluid" alt="">
+            </picture>
         </article>
     </section>
     <footer class="footer">
@@ -91,5 +135,7 @@
             <p> Esta página fue creada basado en documento explicativo de la GFS, “UNA CULTURA DE INOCUIDAD ALIMENTARIA DOCUMENTO EXPOSITIVO DE LA INICIATIVA GLOBAL DE INOCUIDAD ALIMENTARIA (GFSI) V1.0 - 4/11/18“</p>
         </caption>
     </footer>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
 </body>
 </html>
