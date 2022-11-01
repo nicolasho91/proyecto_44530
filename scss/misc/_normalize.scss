@@ -1,0 +1,14 @@
+*{ margin: 0; padding: 0;}
+
+
+
+html{font-size: 62.5%; font-family: Verdana;}
+h1{font-size: 3.6rem; color: $blanco;}
+h2{font-size: 2.8rem; color: $vmoscuro;}
+h3{font-size: 2.2rem; color:$vmoscuro; text-align: center;}
+a{font-size: 1.6rem; color: $blanco; text-decoration: none; display: inline-block;}
+p{font-size: 1.4rem;  text-align: justify;}
+article{padding: .8rem;}
+[role=button] {
+    cursor: pointer;
+  }

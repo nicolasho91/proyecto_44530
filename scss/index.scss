@@ -1,0 +1,38 @@
+/* MISC */
+/* VARIABLES */
+
+@import './misc/variables';
+
+/* NORMALIZE */
+
+@import './misc/normalize';
+
+/* PARTIALS */
+/* HEADER  */
+
+@import './partials/header';
+@import './partials/footer';
+
+/*PAGES*/
+
+@import './pages/index';
+@import './pages/vym';
+@import './pages/personas';
+@import './pages/consistencia';
+@import './pages/adaptabilidad';
+@import './pages/concientizacion';
+
+/*PAGES*/
+
+.seccion1_pages{display: flex; justify-content: center;
+    &-art{display: flex; flex-direction: row;
+        div{width: 30vw;}
+        img{width: 40vw;padding: .5rem; min-width: 310px; flex-wrap: wrap;}
+        }
+}
+
+.seccion2_pages{padding: 3rem; display: flex; ; justify-content: center; align-items: center;
+    h3{display: flex; padding: 1.6rem  ;flex-wrap: wrap}
+    p{display: flex; padding: 1.6rem; min-width: 40rem; flex-wrap: wrap;}
+    &-div{display: inline-flex; flex-wrap: wrap;}
+}

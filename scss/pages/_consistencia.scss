@@ -1,0 +1,7 @@
+.seccion2_cons{
+    background-image: url(../img/consi_back.jpg); display: flex; flex-direction: column; max-width: 100%; padding: 0 3rem 0 3rem;
+    &-div{display: flex; flex-direction: column;
+    p{flex-wrap: wrap;}
+    }
+  
+}

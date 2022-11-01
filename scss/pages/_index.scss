@@ -1,0 +1,61 @@
+.seccion1_home{background-color: $vmoscuro; padding: 1.6rem; display: flex; flex-wrap: wrap; justify-content: center;
+    img{width: 40rem;}
+    div{width: 50vw; flex-direction: column;}
+}
+
+.seccion1_p{color: $blanco;}
+
+
+#seccion2_home {padding: 3rem; display: flex; flex-direction: column; justify-content: center;
+    div{display: inline-block; width: 50vw;}
+}
+
+.title2_home{display: flex; justify-content: center; text-align: center;}
+
+.vym_home{display: flex; flex-wrap: wrap; justify-content: end; align-items: center;
+    img{width: 30vw;}
+}
+
+
+.conci_home{display: flex; flex-wrap: wrap; justify-content: start; align-items: center;
+    img{width: 30vw;}
+}
+
+
+.per_home{text-align: end; display: flex; flex-wrap: wrap; justify-content: end; align-items: center;}
+
+.per_home__img{display: flex; flex-wrap: wrap;
+    img{width: 15vw; ;}
+}
+
+
+.per_home__text{padding: .5rem;}
+
+.cons_home{display: flex; flex-wrap: wrap; justify-content: end; align-items: center;
+    img{width: 30vw;}
+}
+
+
+.adap_home{display: flex; flex-wrap: wrap; justify-content: start; align-items: center;
+    img{width: 30vw;}
+}
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 744px) 
+{
+        .navbar .menu{display: none; position: absolute; font-size: 1rem;}
+        .hamburger{display: flex; align-items: center; background-color: transparent; border: none;}
+        .div{flex-direction: column;}
+        .seccion1_pages-art{flex-direction: column; align-items: center;}
+        .seccion2_pages{flex-direction: column;}
+        
+}

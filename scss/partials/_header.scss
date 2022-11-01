@@ -1,0 +1,12 @@
+header {background-color: $voscuro; width: 100%; display: block;
+    .navbar {display: flex; justify-content: space-between; padding: 0 1rem 0 0;
+        img {max-height: 80px;}
+        .menu {align-items: center; display: flex; flex-wrap: wrap;
+            &__links {display: inline-block;
+                a {padding: 0.5rem; transition: all .8s ease-in-out;}
+                &:hover {background-color: $blanco; color: $vmoscuro;}
+            }
+        }
+        .hamburger{display: none;}
+    }
+}
