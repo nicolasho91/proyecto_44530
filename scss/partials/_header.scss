@@ -1,5 +1,6 @@
 header {background-color: $voscuro; width: 100%; display: block;
-    .navbar {display: flex; justify-content: space-between; padding: 0 1rem 0 0;
+    .navbar {display: flex;
+        justify-content: space-between; padding: 0 1rem 0 0;
         img {max-height: 80px;}
         .menu {align-items: center; display: flex; flex-wrap: wrap;
             &__links {display: inline-block;
@@ -10,3 +11,4 @@ header {background-color: $voscuro; width: 100%; display: block;
         .hamburger{display: none;}
     }
 }
+

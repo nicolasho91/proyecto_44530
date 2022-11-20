@@ -1,19 +1,76 @@
-.seccion1_per{padding: 0 3rem 0 3rem; display: flex;
-    &-art{display: grid; grid-template-columns: auto 1fr; max-width: 100vw; overflow: hidden;
-        .per__img{display: grid; grid-template-columns: 20vw 15vw 30vw; column-gap: .5rem;
-            img{max-height: 30vh;}
-            &-2{align-self: center;}
+.seccion1_per{
+    padding: 0 3rem 0 3rem; 
+    display: flex;
+    justify-content: center;
+    &-art{
+        display: grid; 
+        grid-template-columns: auto 1fr; 
+        max-width: 1000px; 
+        overflow: hidden;
+        align-items: center;
+        
+        .per__img {
+            max-height: 250px;
+            display: grid;
+            grid-template-columns: repeat(12, auto);
+            grid-gap: 5px;
+            grid-auto-rows: minmax(100px, auto);
+            align-items: center;
+            &-1 {
+                max-height: 125px;
+              grid-column: 1 / 2 ;
+              grid-row: 1;
             }
-        div{margin-right: .5rem;}
+            &-2 {
+                max-height: 125px;
+              grid-column: 2;
+              grid-row: 1;
+            }
+            &-3 {
+                max-height: 125px;
+              grid-column: 3 / 12;
+              grid-row: 1;
+            }
+            
         }
+        
+
+        div{
+            margin-right: .5rem;
+        }
+    }
 }
 
-.seccion2_per{background-image: url(../img/per_back.jpg);
+.seccion2_per{
+    display: flex;
+    background-image: url(../img/per_back.jpg);
     padding: 0 3rem 0 3rem;
-    /* display: flex; flex-direction: column; */
-    &-div{min-height: 200vh;
-        display: flex;  flex-wrap: wrap;
-        .btn-primary{font-size: 1.6rem; background-color: $voscuro;}
-        .card-body{font-size: 1.4rem}
+    justify-content: center;
+    
+    h3{
+        padding: 1.5rem;
+        font-size:xx-large;
+    }
+    &-main{
+        max-width: 1000px;
+        justify-content: center;
+        margin-bottom: 15vh;
+    }
+    &-div{
+        max-width: 1000px;
+        min-height: 200vh;
+        display: flex;  
+        flex-wrap: wrap;
+        
+        .btn-primary{
+            font-size: 1.6rem; 
+            background-color: $voscuro;
+        }
+        .card-body{
+            font-size: 1.4rem
+        }
+        li{
+            padding-bottom: 1rem;
+        }
     }
 }

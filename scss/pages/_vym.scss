@@ -1,1 +1,8 @@
-.seccion2_vym{background-image: url(../img/vym_back.jpg); }
+.seccion2_vym{
+    background-image: url(../img/vym_back.jpg); min-height: 400px; 
+    #carouselvym{
+        min-height: 400px;
+        margin-bottom: 5vh;
+    }
+    
+}

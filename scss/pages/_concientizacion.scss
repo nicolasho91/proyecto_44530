@@ -1,16 +1,41 @@
 .seccion1_conci{
-    padding: 0 3rem 0 3rem; display: flex;
+    padding: 0 3rem 0 3rem; 
+    display: flex;
+    
     article{
-        display: grid; grid-template-columns: 40vw 60vw; align-items: center;
-        div{padding-right: .5rem;}
-        img{max-width: 50vw;}
+/*         display: grid; 
+        grid-template-columns: 40vw 60vw; */ 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        div{
+            padding-right: .5rem;
+            max-width: 400px;
+        }
+        img{
+            max-width: 50vw;
+            min-width: 400px;
+        }
     }
 }
 
 .seccion2_conci{
-    background-image: url(../img/conci_back.jpg); display: flex; flex-direction: column; max-width: 100%; padding: 0 3rem 0 3rem;
-    &-div{display: flex; flex-direction: column;
-    p{flex-wrap: wrap;}
+    background-image: url(../img/conci_back.jpg); 
+    display: flex; 
+    flex-direction: column; 
+    width: 100%; 
+    padding: 0 3rem 0 3rem;
+    &-main{
+        margin-bottom: 15vh;
+    }
+    &-div{
+        display: flex; 
+        flex-direction: column;
+        p{
+        flex-wrap: wrap;
+        }
     }
   
 }

@@ -3848,7 +3848,7 @@ textarea.form-control-lg {
 
 .navbar-collapse {
   flex-basis: 100%;
-  flex-grow: 1;
+/*   flex-grow: 1; */
   align-items: center;
 }
 
@@ -3946,6 +3946,7 @@ textarea.form-control-lg {
   }
   .navbar-expand-md .navbar-nav {
     flex-direction: row;
+    justify-content: end;
   }
   .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
@@ -5908,7 +5909,7 @@ textarea.form-control-lg {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color: #0C4107;
   text-align: center;
   background: none;
   border: 0;

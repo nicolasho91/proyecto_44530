@@ -16,40 +16,45 @@
   />
 </head>
 <body>
-    <header class="bd-example">
-        <nav class="navbar">
-            <img src="./img/logo.png" alt="Food Safety">
-            <button class="hamburger">
-                <iconify-icon role="button" icon="entypo:menu" style="color: white;" width="8rem"; height="8rem"></iconify-icon>
-
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <a href="../index.html">
+                <img src="./img/logo.png" alt="Food Safety">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <ul class="menu">
-                <li class="menu__links">
-                    <a href="./pages/vym.html">Visión y Misión</a>
-                </li>
-                <li class="menu__links">
-                    <a href="./pages/personas.html">Personas</a>
-                </li>
-                <li class="menu__links">
-                    <a href="./pages/consistencia.html">Consistencia</a>
-                </li>
-                <li class="menu__links">
-                    <a href="./pages/adaptabilidad.html">Adaptabilidad</a>
-                </li>
-                <li class="menu__links">
-                    <a href="./pages/concientizacion.html">Concientización</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="menu__links">
+                        <a href="./pages/vym.html">Visión y Misión</a>
+                    </li>
+                    <li class="menu__links">
+                        <a href="./pages/personas.html">Personas</a>
+                    </li>
+                    <li class="menu__links">
+                        <a href="./pages/consistencia.html">Consistencia</a>
+                    </li>
+                    <li class="menu__links">
+                        <a href="./pages/adaptabilidad.html">Adaptabilidad</a>
+                    </li>
+                    <li class="menu__links">
+                        <a href="./pages/concientizacion.html">Concientización</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <section class="seccion1_home">
-        <div class="seccion1_home div">
-            <h1> CULTURA DE INOCUIDAD ALIMENTARIA</h1>
-            <p class="seccion1_p">El GTT de la GFSI define la cultura de inocuidad alimentaria como “valores, creencias y normas 
-            compartidas que afectan la forma de pensar y el  comportamiento con relación a la inocuidad 
-            alimentaria en, a través y a lo largo y a lo ancho de una organización.”</p>
+        <div class="seccion1_home contenedor">
+            <div class="seccion1_home div">
+                <h1> CULTURA DE INOCUIDAD ALIMENTARIA</h1>
+                <p class="seccion1_p">El GTT de la GFSI define la cultura de inocuidad alimentaria como “valores, creencias y normas 
+                compartidas que afectan la forma de pensar y el  comportamiento con relación a la inocuidad 
+                alimentaria en, a través y a lo largo y a lo ancho de una organización.”</p>
+            </div>
+            <img class="animate__animated animate__flipInY" src="./img/img_sec1.png" alt="alimentos">
         </div>
-        <img class="animate__animated animate__flipInY" src="./img/img_sec1.png" alt="alimentos">
     </section>
     <section  id="seccion2_home">
         <h2 class="title2_home">DIMENSIONES DE LA CULTURA DE INOCUIDAD ALMIMENTARIA</h2>
@@ -79,8 +84,12 @@
                 <p>Se centra en los actores clave de la cadena, su gobernanza, comunicación, organización del aprendizaje e incentivos, recompensas y reconocimientos</p>
             </div>
             <picture class="per_home__img">
-                <img src="./img/img_per1.png" class="img-fluid" alt="trabajador industria de alimentos">
-                <img src="./img/img_per2.png" class="img-fluid" alt="trabajador industria de alimentos">
+                <img src="./img/img_per1.png" 
+                 
+                alt="trabajador industria de alimentos">
+                <img src="./img/img_per2.png" 
+                 
+                alt="trabajador industria de alimentos">
                 <!-- <img src="./img/img_per3.png" alt=""> -->
             </picture>
         </article>
