@@ -25,14 +25,34 @@
 /*PAGES*/
 
 .seccion1_pages{display: flex; justify-content: center;
-    &-art{display: flex; flex-direction: row;
+    &-art{display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
         div{width: 30vw;}
         img{width: 40vw;padding: .5rem; min-width: 310px; flex-wrap: wrap;}
         }
 }
 
-.seccion2_pages{padding: 3rem; display: flex; ; justify-content: center; align-items: center;
-    h3{display: flex; padding: 1.6rem  ;flex-wrap: wrap}
-    p{display: flex; padding: 1.6rem; min-width: 40rem; flex-wrap: wrap;}
-    &-div{display: inline-flex; flex-wrap: wrap;}
+.seccion2_pages{
+    padding: 3rem; 
+    display: flex; ; 
+    justify-content: center; 
+    align-items: center;
+    h3{
+        display: flex; 
+        padding: 1.6rem  ;
+        flex-wrap: wrap
+    }
+    p{
+        display: flex; 
+        padding: 1.6rem; 
+        min-width: 40rem; 
+        flex-wrap: wrap;
+    }
+    &-div{
+        display: inline-flex; 
+        flex-wrap: wrap;
+    }
 }
