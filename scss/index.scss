@@ -24,14 +24,23 @@
 
 /*PAGES*/
 
-.seccion1_pages{display: flex; justify-content: center;
+.seccion1_pages{
+    display: flex; 
+    justify-content: center;
+    
     &-art{display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        div{width: 30vw;}
-        img{width: 40vw;padding: .5rem; min-width: 310px; flex-wrap: wrap;}
+        div{
+            width: 30vw;
+        }
+        img{
+            width: 40vw;
+            padding: .5rem; 
+            min-width: 310px; 
+            flex-wrap: wrap;}
         }
 }
 
@@ -55,4 +64,23 @@
         display: inline-flex; 
         flex-wrap: wrap;
     }
+}
+
+/*MEDIA QUERY*/
+
+
+
+@media screen and (max-width: 572px) 
+{
+    .seccion1_pages{
+        &-art{
+            div
+            {width: 400px;
+            }
+            img{
+                width: 400px;
+                padding: 0; 
+            }
+            }
+    }    
 }

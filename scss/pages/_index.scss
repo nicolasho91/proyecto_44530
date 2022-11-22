@@ -35,42 +35,42 @@
         max-width: 30vw;
         }
     }
-}
-
-.conci_home{
-    img{
-        width: 30vw;
-    }
-}
-
-
-.per_home{
-    &__img{
-        display: flex; flex-direction: row; max-width: 30vw;
+    .conci_home{
         img{
-            width: 15vw; ;
+            width: 30vw;
         }
     }
-    &__text{
-        padding: .5rem; max-width: 500px;
+    
+    
+    .per_home{
+        &__img{
+            display: flex; flex-direction: row; max-width: 30vw;
+            img{
+                width: 15vw; ;
+            }
+        }
+        &__text{
+            padding: .5rem; max-width: 500px;
+        }
+    }
+    
+    
+    
+    
+    .cons_home{
+        img{
+            width: 30vw;
+        }
+    }
+    
+    
+    .adap_home{
+        img{
+            width: 30vw;
+        }
     }
 }
 
-
-
-
-.cons_home{
-    img{
-        width: 30vw;
-    }
-}
-
-
-.adap_home{
-    img{
-        width: 30vw;
-    }
-}
 
 
 
@@ -90,4 +90,98 @@
         .seccion1_pages-art{flex-direction: column; align-items: center;}
         .seccion2_pages{flex-direction: column;}
         
+}
+
+
+@media screen and (max-width: 572px) 
+{
+
+    .seccion1_home{
+        
+        .contenedor{
+            
+            max-width: 1000px;
+            display: flex; flex-direction: row;
+            padding: 0;
+        }
+        img{
+            max-width: 400px; max-height: 230px; padding-top: .6rem;
+        }
+        .div{
+            
+            max-width: none; 
+            flex-direction: column;
+            padding: 0 0 0 0;
+            h1 {
+                text-align: center;
+            }
+        }
+    }
+
+    #seccion2_home {
+        
+        article{
+            display: flex; 
+            flex-direction: column;  
+            max-width: 1000px;
+            .div{
+                display: flex; flex-direction: column; max-width: 50vw; padding: 0 1rem 0 1rem
+            }
+        };
+        .vym_home{
+            align-items: center;
+            .div{
+                max-width: 400px;
+            }
+            img{
+            max-width: 400px;
+            }
+        }
+        .conci_home{
+            align-items: center;
+            flex-flow: column-reverse;
+            .div{
+                max-width: 400px;
+            }
+            img{
+            width: 400px;
+            }
+        }
+        
+        
+        .per_home{
+            align-items: center;
+            &__text{
+                padding: .5rem; max-width: 400px;
+            }
+            &__img{
+                display: flex; 
+                flex-direction: row; 
+                max-width: 400px;
+                img{
+                    width: 200px; ;
+                }
+            }
+        }
+             
+        .adap_home{
+            align-items: center;
+            flex-flow: column-reverse;
+            .div{
+                max-width: 400px;
+            }
+            img{
+                width: 400px;
+            }
+        }
+        
+        .cons_home{
+            .div{
+                max-width: 400px;
+            }
+            img{
+                width: 400px;
+            }
+        }
+    }    
 }
