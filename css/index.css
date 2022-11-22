@@ -406,11 +406,12 @@ header {
 
 @media screen and (max-width: 572px) {
   .seccion1_consi-art {
-    padding: .3rem; }
+    padding: .3rem;
+    overflow: auto; }
     .seccion1_consi-art div {
-      max-width: 500px; }
+      max-width: 350px; }
     .seccion1_consi-art img {
-      max-width: 500px; } }
+      max-width: 350px; } }
 
 .seccion1_adap {
   display: flex;
@@ -475,6 +476,15 @@ header {
       max-width: 500px; }
     .seccion1_adap-art img {
       max-width: 500px; } }
+
+@media screen and (max-width: 572px) {
+  .seccion1_adap-art {
+    padding: .6rem;
+    overflow: auto; }
+    .seccion1_adap-art div {
+      max-width: 350px; }
+    .seccion1_adap-art img {
+      max-width: 350px; } }
 
 .seccion1_conci {
   padding: 0 3rem 0 3rem;
@@ -549,7 +559,7 @@ header {
 /*MEDIA QUERY*/
 @media screen and (max-width: 572px) {
   .seccion1_pages-art div {
-    width: 400px; }
+    width: 350px; }
   .seccion1_pages-art img {
-    width: 400px;
+    width: 350px;
     padding: 0; } }
